@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime node Socket.IO Chat App</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <nav>
+        <!-- Logo inside NavBar  -->
+        <img class="Logo" src="../Logo/WhatsApp-logo-Purple.png" alt="Logo">
+        <h1>Welcome to iChat</h1>
+    </nav>
+    <!-- container in which we gona Chat  -->
+    <div class="container">
+        <!-- we will gona add left to client
+        <div class="message left">Harry : Hey How are You ?</div>
+        <!-- we will gona add right to Us -->
+        <!-- <div class="message right">Rohan : I AM Fine Bro !</div> -->
+    </div>
+    <!-- For adding text in text area -->
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send Text</button>
+        </form>
+    </div>
+    <!-- Adding server and Client Together  -->
+    <!-- defer used to run our data in Background and when our DOM we ready then it it automatically fire -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="../js/client.js"></script>
+    <!-- *WE connected both js and socket.io using above both lines  -->
+</body>
+
+</html>

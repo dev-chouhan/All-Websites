@@ -1,0 +1,92 @@
+/* Outside Area  */
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(247, 247, 247), rgb(109, 39, 239));
+}
+
+/* Designing Logo  */
+.Logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Area from where which we can see our TextArea  */
+.container {
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 13px;
+}
+
+/* message which we gona see  */
+.message {
+    background-color: rgb(216, 215, 215);
+    padding: 10px;
+    width: 24%;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Received data to left  */
+.left {
+    float: left;
+    clear: both;
+}
+
+/* Sended data to Right  */
+.right {
+    float: right;
+    clear: both;
+}
+
+/* Area from where we can display our writing message  */
+#send-container {
+    text-align: center;
+    max-width: 1031px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+/* Area from where we can write message  */
+#messageInp {
+    width: 81%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 30px;
+    font-size: 22px;
+    outline: none;
+}
+
+/* button from which on clicking we send our Data */
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 8%;
+    margin: 0 5px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background: rgb(204, 180, 248);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
