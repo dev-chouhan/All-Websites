@@ -1,0 +1,3 @@
+Problem in this file is -
+1. Data is in JSON file , we need to fetch it from somewhere.
+2. map plotting is normal one , we need an Attractive one.
